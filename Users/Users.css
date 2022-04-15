@@ -1,0 +1,109 @@
+/* #ps
+{
+    border: 3px;
+    width: auto;
+    height: 150px;
+}
+#offer
+{
+    border: 3px;
+    width: auto;
+    height: 150px;
+} */
+#bd{
+    font-size: large;
+    font-family: sans-serif;
+}
+#su{
+    position: absolute;
+    top: 75px;
+    right: 3px;
+    background-color: #7FFF00;
+}
+#l{
+    position: absolute;
+    top: 75px;
+    right: 210px;
+    background-color: #7FFF00;
+
+}
+#al{
+    position: absolute;
+    top: 75px;
+    right: 420px;
+    background-color: #7FFF00;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+#al1{
+    color: #007FFF;
+    font-size: 20px;
+}
+#l1{
+    color: #007FFF;
+    font-size: 20px;
+
+}
+#su1{
+    color: #007FFF;
+    font-size: 20px;
+
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 100px;
+    color: #007FFF;
+    height: 330px;
+    position: absolute;
+    left: 300px;
+    top: 230px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    background-color: #a6f457ce!important;
+}
+.card img {
+    object-fit: cover;
+    width: 225px;
+    height: 225px;
+    align-items: center;
+    align-self: center;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#a6f457b3;
+    color: blue;
+    text-align: center;
+ }
+ .au{
+     text-align: left;
+     width: 40%;
+ }
+ #name
+{
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 75px;
+    position: absolute;
+    top:25px;
+    left: 175px;
+    color: #7FFF00;
+}
+.fo{
+    font-size: large;
+}
+.lg{
+    width: 50px;
+    height: 50px;
+    text-align: right;
+}
